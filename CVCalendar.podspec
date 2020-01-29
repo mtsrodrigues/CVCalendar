@@ -10,7 +10,7 @@ s.authors             = { 'Eugene Mozharovsky' => 'mozharovsky@live.com', 'Jonas
 s.platform     = :ios, '8.0'
 s.ios.deployment_target = '8.0'
 s.source       = { :git => 'https://github.com/CVCalendar/CVCalendar.git', :tag => s.version }
-s.source_files  = 'CVCalendar/*.swift'
+s.source_files  = 'Sources/CVCalendar/*.swift'
 s.requires_arc = true
 
 # This is not accurate anymore as different versions are supported, but no range possible as of today
